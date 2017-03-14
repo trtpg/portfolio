@@ -20,10 +20,10 @@ html{
   text-decoration: overline;
 }
 
-header > nav {
+.menu{
   text-align: center;
   background-color:  #071a33 ;
-  //padding: inherit; //+ptt enable this line will make backgroud blue disappear???
+  padding-bottom: 1px;
 }
 
 nav > ul{
