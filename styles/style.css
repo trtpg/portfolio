@@ -45,19 +45,20 @@ html{
   background-color: #347f99;
 }
 
-
-
-
-
-
 body {
-  background-color: lightblue;
+  background-color: #D5E3E5;  /*lightblue;*/
   background-blend-mode:color-burn;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
 }
-p{
-  padding-left: 15px;
-  color: inherit;
+
+.content-body{
+  color: #303235;
+  background: #86a09f;
+  border-radius: 5px 5px 15px 15px;
+  padding: 0.5rem;
 }
+
 
 article > h1 {
   color:   #073d4a    ; // #347f99;
@@ -71,30 +72,7 @@ article > h4 {
   //padding: 10px;
 }
 
-/*
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-*/
-article{
-  background: #86a09f;
-  border-radius: 5px 5px 15px 15px;
-  //padding: 10px;
-}
-
-/*
-article > nav {
-  //margin-bottom: 5px;
+.copyright{
   text-align: center;
-  background-color:  #071a33 ;
-  padding: 1px;
-}
-*/
-
-
-
-footer{
-  text-align: center;
+  color: rgb(114, 127, 140)
 }
