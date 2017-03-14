@@ -20,24 +20,35 @@ html{
   text-decoration: overline;
 }
 
+.logo-text::first-letter{
+  font-family: "Gill Sans Extrabold";
+  font-weight: bold;
+  font-style: normal;
+}
+
 .menu{
   text-align: center;
   background-color:  #071a33 ;
   padding-bottom: 1px;
+  /*width:80%;*/
 }
 
-nav > ul{
-    //width:550px;
-}
-
-nav > ul > li{
-  //font-size: 40x;
+.menu-item{
+  font-family:cursive;
+  font-size: 1.1rem;
   display: inline;
-  text-shadow: 5px;
-  padding-left: 30px;
-  padding-right: 10px;
-  //width: 550px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
+
+.menu-item:hover{
+  background-color: #347f99;
+}
+
+
+
+
+
 
 body {
   background-color: lightblue;
