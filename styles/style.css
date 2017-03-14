@@ -52,6 +52,12 @@ body {
   padding-right: 0.2rem;
 }
 
+.landing-image{
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+
 .content-body{
   color: #303235;
   background: #86a09f;
