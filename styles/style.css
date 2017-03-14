@@ -46,7 +46,7 @@ html{
 }
 
 body {
-  background-color: #D5E3E5;  /*lightblue;*/
+  background-color: #D5E3E5;
   background-blend-mode:color-burn;
   padding-left: 0.2rem;
   padding-right: 0.2rem;
@@ -56,20 +56,25 @@ body {
   color: #303235;
   background: #86a09f;
   border-radius: 5px 5px 15px 15px;
-  padding: 0.5rem;
+  /*padding: 1rem;*/
+  padding-top: 0.5rem;
 }
 
-
-article > h1 {
-  color:   #073d4a    ; // #347f99;
-  margin-left: 10px;
-  //padding: 10px;
+.content-title{ /* same as article > h1 ? */
+  color:   #292A27; /*#073d4a;*/
+  margin-left: 1rem;
 }
 
 article > h4 {
-  color:   #0d766a  ;
-  margin-left: 10px;
-  //padding: 10px;
+  margin-left: 1rem;
+}
+
+article > p {
+  margin-left: 1rem;
+}
+
+.indent-tab{
+  margin-left: 60px;
 }
 
 .copyright{
