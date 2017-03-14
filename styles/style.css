@@ -1,24 +1,42 @@
 
-header{
+
+html{
+  font-size: 16px;
+}
+
+.header-background{
   background-color: #020f20 ; // #240803; // black;
   padding: 4px;
   display: block;
   margin-bottom: 5px;
-  border-radius: 10px;
+  border-radius: 15px 15px 5px 5px;
 }
-header > h1{
-  color:#347f99;
-  //+ptt Todo below not affect???
-  //font-size: 70px
-  //font-style: italic;
-  //font-family: "HelveticaNeue-Light","Helvetica Neue Light", "Helvetica Neue";
+
+.logo-text{
+  color: #347f99;
+  font-size: 2rem auto;
+  font-style: italic;
+  font-family: "HelveticaNeue-Light","Helvetica Neue Light", "Helvetica Neue";
   text-decoration: overline;
 }
 
 header > nav {
   text-align: center;
   background-color:  #071a33 ;
-  padding: 1px;
+  //padding: inherit; //+ptt enable this line will make backgroud blue disappear???
+}
+
+nav > ul{
+    //width:550px;
+}
+
+nav > ul > li{
+  //font-size: 40x;
+  display: inline;
+  text-shadow: 5px;
+  padding-left: 30px;
+  padding-right: 10px;
+  //width: 550px;
 }
 
 body {
@@ -51,29 +69,20 @@ ul {
 */
 article{
   background: #86a09f;
-  border-radius: 10px;
+  border-radius: 5px 5px 15px 15px;
   //padding: 10px;
 }
 
+/*
 article > nav {
   //margin-bottom: 5px;
   text-align: center;
   background-color:  #071a33 ;
   padding: 1px;
 }
+*/
 
-nav > ul{
-    //width:550px;
-}
 
-nav > ul > li{
-  font-size: 20x;
-  display: inline;
-  text-shadow: 5px;
-  padding-left: 20px;
-  padding-right: 10px;
-  width: 550px;
-}
 
 footer{
   text-align: center;
