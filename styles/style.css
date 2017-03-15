@@ -1,5 +1,4 @@
 
-
 html{
   font-size: 16px;
 }
@@ -59,28 +58,26 @@ body {
   display: block;
   margin: auto;
 }
+
 .product{
   white-space: nowrap;
   list-style: none;
 }
 
 .product-image{
-
   width: 200px;
   height: 200px;
 }
-
 
 .content-body{
   color: #303235;
   background: #86a09f;
   border-radius: 5px 5px 15px 15px;
-  /*padding: 1rem;*/
   padding-top: 0.5rem;
 }
 
-.content-title{ /* same as article > h1 ? */
-  color:   #292A27; /*#073d4a;*/
+.content-title{
+  color:   #292A27;
   margin-left: 1rem;
 }
 
