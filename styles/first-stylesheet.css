@@ -1,0 +1,99 @@
+
+html{
+  font-size: 16px;
+}
+
+.header-background{
+  background-color: #020f20 ; // #240803; // black;
+  padding:0.4rem;
+  display: block;
+  margin-bottom: 5px;
+  border-radius: 15px 15px 5px 5px;
+}
+
+.logo-text{
+  color: #347f99;
+  font-size: 2.5rem;
+  font-style: italic;
+  font-family: "HelveticaNeue-Light","Helvetica Neue Light", "Helvetica Neue";
+  text-decoration: overline;
+}
+
+.logo-text::first-letter{
+  font-family: "Gill Sans Extrabold";
+  font-weight: bold;
+  font-size: 3rem;
+  color: #093d44 ;
+  background-color: #779634;
+  font-style: normal;
+}
+
+.menu{
+  text-align: center;
+  background-color:  #071a33 ;
+  padding-bottom: 1px;
+}
+
+.menu-item{
+  font-family:cursive;
+  font-size: 1.1rem;
+  display: inline;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.menu-item:hover{
+  background-color: #347f99;
+}
+
+body {
+  background-color: #D5E3E5;
+  background-blend-mode:color-burn;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+
+.landing-image{
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.product{
+  white-space: nowrap;
+  list-style: none;
+}
+
+.product-image{
+  width: 200px;
+  height: 200px;
+}
+
+.content-body{
+  color: #303235;
+  background: #86a09f;
+  border-radius: 5px 5px 15px 15px;
+  padding-top: 0.5rem;
+}
+
+.content-title{
+  color:   #292A27;
+  margin-left: 1rem;
+}
+
+article > h4 {
+  margin-left: 1rem;
+}
+
+article > p {
+  margin-left: 1rem;
+}
+
+.indent-tab{
+  margin-left: 60px;
+}
+
+.copyright{
+  text-align: center;
+  color: rgb(114, 127, 140)
+}
