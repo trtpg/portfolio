@@ -35,15 +35,45 @@ html{
 }
 
 .menu-item{
+  display: inline;
   font-family:cursive;
   font-size: 1.1rem;
-  display: inline;
   padding-left: 1rem;
   padding-right: 1rem;
+  
+  
+  /*+ptt new add  for transition effects */
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  text-align: left;
+  //background-color: orange;
+  //left: 5px;
+  //top: 5px;
+  //height: 26px;
+  color: white;
+  //border-color: red;
+  //font-family: sans-serif;
+  /*font-size: 20px;*/
+  text-decoration: none;
+  box-shadow: 2px 2px 1px green;
+  padding: 2px 4px;
+  border: solid 1px pink;  
 }
 
 .menu-item:hover{
   background-color: #347f99;
+  
+  /*+ptt new transaction */
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+  background-color:white;
+  color:green;
+  box-shadow: 2px 2px 1px orange; 
+  
 }
 
 body {
@@ -58,6 +88,18 @@ body {
   display: block;
   margin: auto;
 }
+
+/*+ptt new nth-child selection */
+.project-ith:nth-child(odd){
+	width: 50%;
+	background:  #ccddff;
+}
+.project-ith:nth-child(even){
+	width: 50%;
+	background: #99bbff ; /*#cce6ff;*/
+}
+
+
 
 .product{
   white-space: nowrap;
