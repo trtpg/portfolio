@@ -28,66 +28,74 @@ html{
   font-style: normal;
 }
 
+.logo{
+  color: #347f99;
+}
+
+.logo:hover{
+  //background-color: #347f99;
+  /*+ptt new transaction */
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  background-color:white;
+  color:green;
+  //border-radius: 100%;
+  transform: rotate(360deg);
+  box-shadow: 2px 2px 1px orange;
+}
+
+.logo:active{
+  //background-color: #347f99;
+  /*+ptt new transaction */
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  background-color:white;
+  color:blue;
+  border-radius: 100%;
+  box-shadow: 2px 2px 1px orange;
+  transform: rotate(-35deg);
+}
+
+
 .menu{
   text-align: center;
   background-color:  #071a33 ;
   padding-bottom: 1px;
+  /*padding-left: 3rem;
+  padding-right: 3rem;*/
 }
 
 .menu-item{
   display: inline;
   font-family:cursive;
   font-size: 1.1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-
-
-  /*+ptt new add  for transition effects */
+  padding-left: 20rem;
+  padding-right: 3rem;
   position: relative;
   transition-property: background-color, color;
   transition-duration: 1s;
   transition-timing-function: ease;
   text-align: left;
-  //background-color: orange;
-  //left: 5px;
-  //top: 5px;
-  //height: 26px;
   color: white;
-  //border-color: red;
-  //font-family: sans-serif;
-  /*font-size: 20px;*/
   text-decoration: none;
-  //box-shadow: 2px 2px 1px green;
   padding: 2px 4px;
-  border: solid 1px pink;
+  border: solid 1px gray;
 }
 
 .menu-item:hover{
   background-color: #347f99;
-  /*+ptt new transaction */
   position: relative;
   transition-property: background-color, color;
   transition-duration: 0.5s;
   transition-timing-function: ease-in;
   background-color:white;
   color:green;
-  box-shadow: 2px 2px 1px orange;
-}
-
-.menu-item:active{
-  background-color: blue;
-  /*+ptt new transaction */
-  position: relative;
-  transition-property: background-color, color;
-  transition-duration: 1s;
-  transition-timing-function: ease-in;
-  background-color:blue;
-  //color:white;
   border-radius: 50%;
-  color: rgb(0, 255, 255);
-
-  //box-shadow: 2px 2px 1px orange;
-
+  box-shadow: 2px 2px 1px orange;
 }
 
 
