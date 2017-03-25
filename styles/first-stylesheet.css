@@ -33,22 +33,17 @@ html{
 }
 
 .logo:hover{
-  //background-color: #347f99;
-  /*+ptt new transaction */
   position: relative;
   transition-property: background-color, color;
   transition-duration: 1s;
   transition-timing-function: ease;
   background-color:white;
   color:green;
-  //border-radius: 100%;
   transform: rotate(360deg);
   box-shadow: 2px 2px 1px orange;
 }
 
 .logo:active{
-  //background-color: #347f99;
-  /*+ptt new transaction */
   position: relative;
   transition-property: background-color, color;
   transition-duration: 1s;
@@ -65,13 +60,11 @@ html{
   text-align: center;
   background-color:  #071a33 ;
   padding-bottom: 1px;
-  /*padding-left: 3rem;
-  padding-right: 3rem;*/
 }
 
 .menu-item{
   display: inline;
-  font-family:cursive;
+  font-family: 'Angkor', cursive;
   font-size: 1.1rem;
   padding-left: 20rem;
   padding-right: 3rem;
@@ -104,24 +97,37 @@ body {
   background-blend-mode:color-burn;
   padding-left: 0.2rem;
   padding-right: 0.2rem;
+
+}
+
+body h1{
+  font-family: 'BenchNine', cursive;
+}
+
+body p{
+  font-family: 'Courgette', cursive;
 }
 
 .landing-image{
   width: 50%;
   display: block;
+  border:4px solid lightgray;
   margin: auto;
 }
 
-/*+ptt new nth-child selection */
+.project-ith{
+  font-family: 'Angkor', cursive;
+  padding: 0.3rem;
+}
+
 .project-ith:nth-child(odd){
 	width: 50%;
 	background:  #ccddff;
 }
 .project-ith:nth-child(even){
 	width: 50%;
-	background: #99bbff ; /*#cce6ff;*/
+	background: #99bbff ;
 }
-
 
 
 .product{
@@ -132,6 +138,7 @@ body {
 .product-image{
   width: 200px;
   height: 200px;
+  border:3px solid lightgray;
 }
 
 .content-body{
